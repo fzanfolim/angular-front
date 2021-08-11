@@ -1,2 +1,4 @@
 *
 !.gitignore
+!environment.prod.ts
+!environment.ts
