@@ -1,0 +1,14 @@
+
+<app-navbar-menu [sidenav]="sidenav"></app-navbar-menu>
+
+<mat-sidenav-container>
+    <mat-sidenav #sidenav="matSidenav" class="mat-elevation-z8">
+     <app-menu></app-menu>
+
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <div class="content">
+            <router-outlet></router-outlet>
+        </div>
+    </mat-sidenav-content>
+</mat-sidenav-container>

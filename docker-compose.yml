@@ -1,0 +1,9 @@
+version: '2'
+services:
+  onboard-omni:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: onboard-omni
+    ports:
+      - "8181:80"  

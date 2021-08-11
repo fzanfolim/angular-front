@@ -1,0 +1,12 @@
+
+<mat-toolbar class="mat-elevation-z8">
+    <button mat-icon-button *ngIf="sidenav && sidenav.mode === 'over'" (click)="sidenav.toggle()">
+        <mat-icon *ngIf="!sidenav.opened">
+            menu
+        </mat-icon>
+        <mat-icon *ngIf="sidenav.opened">
+            close
+        </mat-icon>
+    </button>
+    <img src="https://dev-app.omni.chat/assets/images/omnichat-amarela-horizontal.png"> OnBoarding 
+</mat-toolbar>
