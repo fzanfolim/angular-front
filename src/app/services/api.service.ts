@@ -14,7 +14,7 @@ export class ApiService {
   private readonly defaultHeaders = new HttpHeaders({
     'Content-Type': 'application/json',
     'X-Parse-Application-Id': environment.applicationId,
-    'x-omnichat-platform': environment.platform, //web
+    'x-omnichat-platform': environment.platform, 
   }); 
 
   constructor(
